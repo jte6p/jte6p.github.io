@@ -49,6 +49,14 @@ body {
     margin: 0;
     height: 500px;
 }
+.band-name {
+    font: 100px/100px 'Amatic SC', cursive;
+    font-weight: 200!important;
+    text-transform: uppercase;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
 .section-header {
    font: 60px/60px 'Amatic SC', cursive;
     font-weight: 200!important;
