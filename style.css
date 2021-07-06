@@ -14,27 +14,38 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
-    padding: 20px 10%;
     background-color: black;
+    height: 4em;
+}
+
+.container {
+    align-items: center;
+    margin-inline: auto;
+    width: min(90%, 20.5);
+    padding: 1em;
+
+}
+
+.band-header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 18px;
 }
 
 .social-media {
     font-weight: 500;
     font-size: 18px;
-    color: rgb(183, 216, 183);
     text-decoration: none;
+    padding-right: 1em;
+}
+
+.social-media-icons {
+    display: none;
 }
 
 .social-media--button:hover {
     background-color: rgb(48, 48, 48);
-}
-
-.band-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 18px;
 }
 
 .nav-item {
@@ -109,4 +120,19 @@ header {
     border-left: 1px solid #ccc;
     margin: 0 10px;
     height: 125px;
+}
+
+@media (max-width: 850px){
+    .social-media {
+        display: none;
+    }
+}
+
+@media (max-width: 510px){
+    header {
+        justify-content: space-evenly;
+    }
+    .band-header{
+        padding-right: 1em;
+    }
 }
