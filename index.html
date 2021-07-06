@@ -10,18 +10,29 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 <! -- Navbar -- >
-    <ul class="navbar">
-        <li class="nav-item" id="left-item"><a class="nav-link" href="index.html">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="#events">Events</a></li>
-        <li class="nav-item"><a class="nav-link" href="#book-us">Book Us!</a></li>
-        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-    </ul>
+    <header class="container">
+        <nav>
+            <ul class="band-header">
+                <img class="band-logo .nav-item" src="images/band-logo.jpg"  alt="Theocles and The Scruffs">
+                <span class="nav-item"><a class="nav-link" >Theocles & The Scruffs</a></span>
+            </ul>
+        </nav>
+        <nav>
+            <ul class="social-media">
+                <li class="nav-item"><a class="nav-link social-media--button" href="https://www.instagram.com/theoclesandthescruffs/">Instagram</a></li>
+                <div class="vertical-line" ></div>
+                <li class="nav-item"><a class="nav-link social-media--button" href="https://www.facebook.com/Theocles-The-Scruffs-100731232238238">Facebook</a></li>
+                <div class="vertical-line"></div>
+                <li class="nav-item"><a class="nav-link social-media--button" href="https://youtu.be/dQw4w9WgXcQ">Youtube</a></li>
+            </ul>
+        </nav>
+    </header>
 
 <! -- Band Photo -->
-
     <div class="photo-container">
         <marquee behavior="scroll" direction="left" hspace="0" scrollamount="10" scrolldelay = "0">
             <img class="band-photo" src="images/band-photo.jpg"  alt="Theocles and The Scruffs">
@@ -44,45 +55,49 @@
             <img class="band-photo" src="images/band-photo3.jpg" alt="Theocles and The Scruffs">
             <img class="band-photo" src="images/band-photo4.jpg" alt="Theocles and The Scruffs">
             <img class="band-photo" src="images/band-photo5.jpg" alt="Theocles and The Scruffs">
-    </marquee>
-    <div class="band-name">
-        Theocles & The Scruffs
+        </marquee>
     </div>
-    </div>
-<! -- Upcoming Shows -- >
-    <div class="show-div" id="events">
-        <div class="section-header">Upcoming Shows</div>
-        <ul class="show-list">
-            <li class="show-date">July 13th, 2021 @ 10pm</li>
-            <li class="show-location">Crozet Pizza at Buddhist Biker Bar</li>
-            <li class="show-date">July 16th, 2021 @ 6:30pm</li>
-            <li class="show-location">Starr Hill Downtown</li>
-            <li class="show-date">July 30th, 2021 @ 5pm</li>
-            <li class="show-location">The Shops at Stonefield</li>
 
-        </ul>
+    <section>
+        <div class="container">
 
-    </div>
-<! -- Book Us -- >
-    <div id="book-us">
-        <div class="section-header">
-            Book Us!
+            <! -- Band Title -- >
+            <div class="band-name">
+                Theocles & The Scruffs
+            </div>
+
+            <! -- Upcoming Shows -- >
+            <div class="show-div" id="events">
+                <div class="section-header">Upcoming Shows</div>
+                <ul class="show-list">
+                    <li class="show-date">July 13th, 2021 @ 10pm</li>
+                    <li class="show-location">Crozet Pizza at Buddhist Biker Bar</li>
+                    <li class="show-date">July 16th, 2021 @ 6:30pm</li>
+                    <li class="show-location">Starr Hill Downtown</li>
+                    <li class="show-date">July 30th, 2021 @ 5pm</li>
+                    <li class="show-location">The Shops at Stonefield</li>
+                </ul>
+            </div>
+
+        <! -- Book Us -- >
+            <div id="book-us">
+                <div class="section-header">
+                    Book Us!
+                </div>
+                Contact tatscville@gmail.com to check our availability!
+            </div>
+
+        <! -- About -- >
+            <div id="about">
+                <div class="section-header">
+                    About the Band!
+                </div>
+                We are a group of musicians based out of Charlottesville, VA.
+            </div>
         </div>
-        Contact tatscville@gmail.com to check our availability!
-    </div>
+    </section>
 
-<! -- About -- >
-
-    <div id="about">
-        <div class="section-header">
-            About the Band!
-        </div>
-        We are a group of musicians based out of Charlottesville, VA.
-    </div>
-<!-- TODO Instagram FEED -->
-
-<! -- TODO Merch Shop -- >
-
-
+    <!-- TODO Instagram FEED -->
+    <! -- TODO Merch Shop -- >
 </body>
 </html>
