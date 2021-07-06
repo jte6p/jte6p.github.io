@@ -10,17 +10,33 @@ body {
     background: #fff;
     -webkit-font-smoothing: antialiased;
 }
-.navbar {
 
-  list-style-type: none;
-  margin: 0 auto;
-  padding: 0;
-  background: black;
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 20px 10%;
+    background-color: black;
+}
 
+.social-media {
+    font-weight: 500;
+    font-size: 18px;
+    color: rgb(183, 216, 183);
+    text-decoration: none;
 }
-#left-item {
-    margin-left: 40%;
+
+.social-media--button:hover {
+    background-color: rgb(48, 48, 48);
 }
+
+.band-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+}
+
 .nav-item {
     display: inline-block;
 }
@@ -34,17 +50,12 @@ body {
 
 }
 
-.nav-link:hover {
-    background-color: #111;
+.band-logo {
+    border-radius: 50%;
+    margin: 0;
+    height: 50px;
 }
 
-.nav-link:visited {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
 .band-photo {
     margin: 0;
     height: 500px;
@@ -91,4 +102,11 @@ body {
     font: 32px/32px 'Amatic SC', cursive;
     text-align: center;
     padding: 20px;
+}
+
+.vertical-line{
+    display: inline;
+    border-left: 1px solid #ccc;
+    margin: 0 10px;
+    height: 125px;
 }
