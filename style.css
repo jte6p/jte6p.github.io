@@ -40,10 +40,6 @@ header {
     padding-right: 1em;
 }
 
-.social-media-icons {
-    display: none;
-}
-
 .social-media--button:hover {
     background-color: rgb(48, 48, 48);
 }
